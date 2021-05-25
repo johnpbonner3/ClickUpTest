@@ -1,41 +1,39 @@
 body {
 
-
+    text-align: center;
     max-width: 1600px;
     height: 4350px;
 
     background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
 }
 
+
+
 .container {
-    max-width: 1920px;
+    max-width: 1600px;
+    text-align: center;
+    align-content: center;
 }
 
+.top-bar {
+    max-width: 1100px;
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-top: 47px;
+}
+.menu-primary-navigation-container {
+    display: inline-flex;
+    margin-right: 60px;
+}
 div.nav-bar {
     display: block;
     float:left;
 }
 
-/* Rectangle 32 */
-.top-logo-square {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-
-
-    background: #9C69E2;
-    border-radius: 20px;
-}
-
-/* Rectangle 33 */
-.top-logo-rec {
-    position: absolute;
-    width: 20px;
-    height: 35px;
-
-
-    background: #F063B8;
-    border-radius: 20px;
+.top-logo {
+    float:left;
 }
 
 ul.nav  {
@@ -141,88 +139,110 @@ ul.nav  {
     color: #4B5D68;
 }
 
-.top-bar {
-    display: block;
-}
+
 
 .top-bar-button {
- /*   position: absolute;
-    width: 210px;
-    height: 60px;
-    left: 1150px;
-    top: 47px;*/
+    float: right;
 }
 .in-top-bar-button {
-  /*  position: absolute;
-    width: 152px;
-    height: 26px;
-    left: 1179px;
-    top: 64px;*/
+    float: right;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
 }
 .top-bar-button-text {
-    /* Request Demo */
-    /*  position: absolute;
-      width: 112px;
-      height: 26px;
-      left: 1179px;
-      top: 64px;*/
+
 
 
     font-family: Avenir, sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
-    line-height: 160%;
+    line-height: 26px;
     /* identical to box height, or 26px */
-    display: flex;
+    display: inline-flex;
     align-items: center;
     letter-spacing: 0.005em;
+    padding: 17px 20px 17px 30px ;
 
     /* 2 */
     color: #212353;
 }
+
 .top-bar-button-arrow {
-/*    position: absolute;
-    width: 20px;
-    height: 14px;
-    left: 1311px;
-    top: 70px;*/
-}
-.tbba-right {
-    /* Vector 74 */
 
-/*    position: absolute;
-    width: 20px;
-    height: 0px;
-    left: 1311px;
-    top: 77px;*/
-
-    border: 2px solid #9C69E2;
-    box-sizing: border-box;
-
-}
-.tbba-point {
-    /* Polygon 1 */
-
- /*   position: absolute;
-    width: 14px;
-    height: 6px;
-    left: 1331px;
-    top: 70px;*/
-
-    border: 2px solid #9C69E2;
-    box-sizing: border-box;
-    transform: rotate(90deg);
-
+    display: inline-flex;
+    padding-right: 20px;
+    color: #9C69E2;
 }
 
-.top-bar-button-rec {
-    /* Group 57 */
+.button-holder {
+    float:right;
+    max-width: 230px;
+}
 
-/*
-    position: absolute;
-    width: 152px;
-    height: 26px;
-    left: 1179px;
-    top: 64px;*/
+.headline {
+    width: 100%;
+    max-width: 1100px;
+    display: inline-block;
+    padding: 115px 0px;
+    margin: 0px 40px;
+
+    background: url(https://raw.githubusercontent.com/johnpbonner3/ClickUpTest/master/image1%201.png);
+    background-position: right 0px bottom -10px;
+    background-size: 750px 397px;
+    background-repeat: no-repeat;
+}
+
+.main-headline {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 88px;
+    /* or 88px */
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    /* 2 */
+
+    color: #212353;
+    width: 645px;
+}
+
+.headline-description {
+    width: 380px;
+
+    font-family: Avenir, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: left;
+
+    color: #4B5D68;
+    padding: 25px 0;
+}
+
+.learn-more-button {
+    background: #9C69E2;
+    border-radius: 50px;
+    width: 170px;
+
+}
+.learn-more-button-txt {
+    font-family: Avenir, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 29px;
+    /* identical to box height, or 29px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 16px 26px;
+    color: #FFFFFF;
 }
