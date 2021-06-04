@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Slides</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <style>
+        p {
+            margin:0px;
+        }
+      .author {
+        font-family: Avenir, sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 160%;
+        /* identical to box height, or 29px */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.005em;
+
+        /* 2 */
+
+        color: #212353;
+      }
+
+      .job-title {
+
+        font-family: "Nunito", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        /* or 22px */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.01em;
+
+        /* 3 */
+
+        color: #9C69E2;
+      }
+
+      .testimonial-text {
+        font-family: "Nunito", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 180%;
+        /* or 32px */
+
+
+        /* 1 */
+
+        color: #4B5D68;
+      }
+
+      .image-container {
+          float: left;
+
+          padding: 60px 30px 0px 70px;
+          height: 80%;
+      }
+
+
+      .testimonial-text {
+          padding-top:15px;
+          padding-right:70px;
+          text-align: left;
+          margin:0px;
+      }
+
+      .text-container {
+          padding-top:80px;
+      }
+
+      .slideshow-container {
+          overflow: hidden;
+      }
+
+      .mySlides {
+          display: block;
+          margin: 45px 40px 20px 80px;
+          text-align: center;
+
+          background: #FFFFFF;
+          box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+          border-radius: 20px;
+          width: 645px;
+          height: 330px;
+          transition: 1.5s;
+      }
+      .slide-container {
+          display: inline-flex;
+          position:relative;
+          transition:1s;
+      }
+
+      /* The dot/bullet/indicator container */
+      .dot-container {
+          text-align: left;
+          padding-left:80px;
+          padding-top: 15px;
+          background: none;
+          display: inline-block;
+         /* position: relative;
+          bottom: 20px;
+          left: 60px;*/
+      }
+
+      /* The dots/bullets/indicators */
+      .dot {
+          cursor: pointer;
+          height: 5px;
+          width: 5px;
+          margin: 0 2px;
+          background-color: #FFFFFF;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+          margin-top: 2.5px;
+          margin-bottom: 2.5px;
+      }
+
+      /* Add a background color to the active dot/circle */
+      .active, .dot:hover {
+          background-color: #F063B8;
+          height: 10px;
+          width: 10px;
+          margin-top: 0px;
+          margin-bottom: 0px;
+      }
+
+      .testimonial-headline {
+          text-align: left;
+      }
+      .testimonial-headline {
+          font-family: Helvetica;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 40px;
+          line-height: 130%;
+          /* identical to box height, or 52px */
+
+          padding-top: 100px;
+          padding-left: 80px;
+
+          display: flex;
+          align-items: center;
+
+          color: #FFFFFF;
+      }
+
+      .slideshow-container {
+          background: #9C69E2;
+          border-radius: 50px;
+          width: 1118px;
+          height: 709px;
+      }
+
+      .arrow-container {
+          display: inline-block;
+          text-align: right;
+          float: right;
+          padding-top: 15px;
+          padding-right: 40px;
+      }
+        /*Note: Remember to delete when transferring */
+        .top-bar-button-arrow {
+
+            display: inline-flex;
+            padding-right: 20px;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <div class="slideshow-container">
+
+        <div class="testimonial-headline-container">
+            <h3 class="testimonial-headline">Testimonials</h3>
+        </div>
+
+        <div class="slide-container" id="slide-container">
+          <div class="mySlides">
+
+            <div class="image-container">
+                <p class="testimonial-picture"><img src="https://raw.githubusercontent.com/johnpbonner3/ClickUpTest/master/Ellipse%2076.png" /> </p>
+            </div>
+
+            <div class="text-container">
+              <p class="author">John Fang</p>
+              <p class="job-title">wordfaang.com</p>
+              <p class="testimonial-text">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.</p>
+            </div>
+
+
+          </div>
+
+          <div class="mySlides">
+
+              <div class="image-container">
+                  <p class="testimonial-picture"><img src="https://github.com/johnpbonner3/ClickUpTest/blob/master/Ellipse%2077.png?raw=true" /> </p>
+              </div>
+
+              <div class="text-container">
+                  <p class="author">Jane Fang</p>
+                  <p class="job-title">CEO Big Bizz</p>
+                  <p class="testimonial-text">Hello darkness my old friend I've come to talk with you again .</p>
+              </div>
+
+
+          </div>
+
+          <div class="mySlides">
+
+              <div class="image-container">
+                  <p class="testimonial-picture"><img src="https://raw.githubusercontent.com/johnpbonner3/ClickUpTest/master/Ellipse%2076.png" /> </p>
+              </div>
+
+              <div class="text-container">
+                  <p class="author">John Fang</p>
+                  <p class="job-title">wordfaang.com</p>
+                  <p class="testimonial-text">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.</p>
+              </div>
+
+
+            </div>
+
+            <div class="mySlides">
+
+                <div class="image-container">
+                    <p class="testimonial-picture"><img src="https://github.com/johnpbonner3/ClickUpTest/blob/master/Ellipse%2077.png?raw=true" /> </p>
+                </div>
+
+                <div class="text-container">
+                    <p class="author">John Fang</p>
+                    <p class="job-title">wordfaang.com</p>
+                    <p class="testimonial-text">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.</p>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+        <div class="arrow-container">
+
+            <a class="prev" onclick="plusSlides(-1)">
+                <img src="https://raw.githubusercontent.com/johnpbonner3/ClickUpTest/c35bdf40b1a3ba57524a4e280f38e6f5b1bb62e8/arrow-left-white-big.svg" />
+            </a>
+
+            <a class="next" onclick="plusSlides(1)">
+                <img src="https://raw.githubusercontent.com/johnpbonner3/ClickUpTest/c35bdf40b1a3ba57524a4e280f38e6f5b1bb62e8/arrow-right-white-big.svg" />
+            </a>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+  <script src="Homepagescripts.js"></script>
+</body>
+</html>

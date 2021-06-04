@@ -1,0 +1,292 @@
+body {
+
+  text-align: center;
+
+  height: 4350px;
+
+  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+}
+
+
+
+.container {
+
+  text-align: center;
+  align-content: center;
+}
+
+.top-bar {
+  max-width: 1100px;
+  width: 100%;
+  text-align: center;
+  display: inline-flex;
+  justify-content: space-between;
+  padding-top: 47px;
+}
+.menu-primary-navigation-container {
+  display: inline-flex;
+  margin-right: 60px;
+}
+div.nav-bar {
+  display: block;
+  float:left;
+}
+
+.top-logo {
+  float:left;
+}
+
+ul.nav  {
+  display: -webkit-box;
+}
+
+.menu-item {
+  padding: 10px 20px
+}
+/* About */
+.menu-item#menu-item-1 {
+  /*  position: absolute;
+    width: 53px;
+    height: 30px;
+    left: 410px;
+    top: 62px;*/
+
+  text-decoration: none;
+  list-style: none;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  /* 2 */
+  color: #212353;
+}
+
+.menu-item#menu-item-2 {
+  /* Help */
+
+  /*    position: absolute;
+      width: 35px;
+      height: 26px;
+      left: 503px;
+      top: 64px;*/
+
+  text-decoration: none;
+  list-style: none;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  /* 1 */
+  color: #4B5D68;
+
+
+}
+.menu-item#menu-item-3 {
+  /* Features */
+
+  /*   position: absolute;
+     width: 63px;
+     height: 26px;
+     left: 578px;
+     top: 64px;*/
+
+  text-decoration: none;
+  list-style: none;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  /* 1 */
+  color: #4B5D68;
+
+
+}
+.menu-item#menu-item-4 {
+  /* Signup */
+
+  /*   position: absolute;
+     width: 51px;
+     height: 26px;
+     left: 681px;
+     top: 64px;*/
+
+  text-decoration: none;
+  list-style: none;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  /* 1 */
+  color: #4B5D68;
+
+
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #4B5D68;
+}
+
+
+
+.top-bar-button {
+  float: right;
+}
+.in-top-bar-button {
+  float: right;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+}
+.top-bar-button-text {
+
+
+
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 26px */
+  display: inline-flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+  padding: 17px 20px 17px 30px ;
+
+  /* 2 */
+  color: #212353;
+}
+
+.top-bar-button-arrow {
+
+  display: inline-flex;
+  padding-right: 20px;
+  color: #9C69E2;
+}
+
+.button-holder {
+  float:right;
+  max-width: 230px;
+}
+
+.headline {
+  width: 100%;
+  max-width: 1100px;
+  display: inline-block;
+  padding: 115px 0px;
+  margin: 0px 40px;
+
+  background: url(https://raw.githubusercontent.com/johnpbonner3/ClickUpTest/master/image1%201.png);
+  background-position: right 0px bottom -10px;
+  background-size: 750px 397px;
+  background-repeat: no-repeat;
+}
+
+.main-headline {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 88px;
+  /* or 88px */
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  text-align: left;
+
+  /* 2 */
+
+  color: #212353;
+  width: 645px;
+}
+
+.headline-description {
+  width: 380px;
+
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: left;
+
+  color: #4B5D68;
+  padding: 25px 0;
+}
+
+.learn-more-button {
+  background: #9C69E2;
+  border-radius: 50px;
+  width: 170px;
+
+}
+.learn-more-button-txt {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 29px;
+  /* identical to box height, or 29px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 16px 26px;
+  color: #FFFFFF;
+}
+
+.info-box {
+  max-width: 1100px ;
+  width: 100%;
+  height:auto;
+  display: inline-block;
+}
+
+.info-box-img {
+
+  width: 50%;
+}
+
+.info-box-text {
+  width:50%;
+}
+.info-box-text h2 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  /* or 130% */
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  color: #212353;
+}
+
+.info-box-text p {
+
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  /* or 160% */
+
+
+  /* 1 */
+
+  color: #4B5D68;
+}
